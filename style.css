@@ -1,0 +1,178 @@
+.body {
+    font-family: CustomFont, DaunPenh, serif;
+}
+
+.header {
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: horizontal;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.name {
+    display: flex;
+    align-content: center;
+    letter-spacing: 0.25em;
+}
+
+.list {
+    list-style: none;
+    display: inline-block;
+    padding-right: 50px;
+    margin-top: 18px;
+    margin-right: -50px;
+    margin-left: 20px;
+    letter-spacing: 0.25em;
+}
+
+.container {
+    display: inline-block;
+    color: rgb(221,210,218);
+    background-color: rgb(76,68,117);
+    margin: -10px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: horizontal;
+}
+
+.title {
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+    letter-spacing: 0.2em;
+}
+
+.text {
+    display: inline-block;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: left;
+    flex-wrap: wrap;
+    font-size: 18px;
+    margin: -4px;
+}
+
+.image {
+    width: 461px;
+    height: 191.1px;
+    margin-right: 80px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.button{
+    font-family: CustomFont, DaunPenh, serif;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 78px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(241,140,50);
+    color: rgb(221,210,218);
+    border-radius: 30px;
+    height: 35px;
+    width: 125px;
+    border: none;
+}
+
+.titlebis{
+    text-align: center;
+    padding-top: 60px;
+    letter-spacing: 0.2em;
+    margin-top: 60px;
+}
+
+.skills{
+    display:inline-block;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+.sbanner{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 30px;
+}
+
+.square{
+    height:150px;
+    width:150px;
+}
+
+.textbis{
+    font-size: 18px;
+    text-align:center;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.quotebanner{
+    display:inline-block;
+    background-color: rgb(221,210,218);
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.quote{
+    text-align: right;
+    padding-left: 300px;
+    padding-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    font-size: 25px;
+    letter-spacing: 0.2em;
+    color: rgb(34,52,98);
+}
+
+.contact{
+    display:inline-block;
+    width: 600px;
+    background-color: rgb(34,52,98);
+    color: rgb(221,210,218);
+    letter-spacing: 0.2em;
+    text-align: center;
+    border-radius: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.buttonbis{
+    background-color: transparent;
+    border-color: rgb(241,140,50);
+    color: rgb(221,210,218);
+    border-radius: 30px;
+    height: 35px;
+    width: 125px;
+    font-family: CustomFont, DaunPenh, serif;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.footer{
+    display: block;
+    height: 40px;
+    background-color: rgb(76,68,117);
+    color: rgb(221,210,218);
+    text-align: center;
+    padding-top: 20px;
+    margin-left:-10px;
+    margin-right:-10px;
+    margin-bottom:-10px;
+}
